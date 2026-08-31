@@ -1,0 +1,8 @@
+app = "wl0xy-guard"
+primary_region = "cdg"
+
+[build]
+  builder = "paketobuildpacks/builder:base"
+
+[processes]
+  app = "node index.js"
